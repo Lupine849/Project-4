@@ -45,7 +45,6 @@ html {
 body {
   margin: 0;
   font-family: Source Serif Pro, serif;
-  overflow-x: hidden;
 }
 
 .container {
@@ -1478,10 +1477,14 @@ comparison
   border-radius: var(--radius-md);
   background: var(--color-light-gray);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  overflow-x: auto;
 }
 
 #comparison table {
   width: 100%;
+  max-width: 100%;
+  table-layout: fixed;
+  word-break: break-word;
   border-collapse: collapse;
 }
 
