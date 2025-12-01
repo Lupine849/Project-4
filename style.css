@@ -45,8 +45,6 @@ html {
 body {
   margin: 0;
   font-family: Source Serif Pro, serif;
-  width: 100%;
-  overflow-x: hidden;
 }
 
 .container {
